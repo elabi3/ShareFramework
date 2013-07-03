@@ -34,44 +34,44 @@ Class Name and description of each operation.
 		</tr>
 		<tr>
 			<td><a href="https://github.com/elabi3/ShareFramework/blob/master/ShareFramework/ShareClasses/ShareClipBoard.m">copyStringToClipBoard</a></td>
-    			<td></td>
+    			<td>Copy the content of a NSString passed like argument to clipboard</td>
   		</tr>
 		<tr>
 			<th colspan="2">ShareEmail</th>
 		</tr>
 		<tr>
 			<td><a href="https://github.com/elabi3/ShareFramework/blob/master/ShareFramework/ShareClasses/ShareEmail.m">emailText</a></td>
-    			<td></td>
+    			<td>Open de Email windows in-App. You can specify the email address, subject, and other parameters</td>
   		</tr>
 		<tr>
 			<th colspan="2">ShareFacebook</th>
 		</tr>
 		<tr>
 			<td><a href="https://github.com/elabi3/ShareFramework/blob/master/ShareFramework/ShareClasses/ShareFacebook.m">postToFacebookText</a></td>
-    			<td></td>
+    			<td>Open the System Facebook Windows with or without content</td>
   		</tr>
 		<tr>
 			<th colspan="2">ShareOpen</th>
 		</tr>
 		<tr>
 			<td><a href="https://github.com/elabi3/ShareFramework/blob/master/ShareFramework/ShareClasses/ShareOpen.m">openSafariURLFromString</a></td>
-  			<td></td>
+  			<td>Open the url passed like an NSString in Safari app</td>
   		</tr>
 		<tr>
 			<td><a href="https://github.com/elabi3/ShareFramework/blob/master/ShareFramework/ShareClasses/ShareOpen.m">openChromeURLFromString</a></td>
-  			<td></td>
+  			<td>Open the url passed like an NSString in Google Chrome app</td>
   		</tr>
 		<tr>
 			<td><a href="https://github.com/elabi3/ShareFramework/blob/master/ShareFramework/ShareClasses/ShareOpen.m">openOperaMiniURLFromString</a></td>
-  			<td></td>
+  			<td>Open the url passed like an NSString in Opera Mini app</td>
   		</tr>
 		<tr>
 			<td><a href="https://github.com/elabi3/ShareFramework/blob/master/ShareFramework/ShareClasses/ShareOpen.m">openSearchChromeFromString</a></td>
-  			<td></td>
+  			<td>Search in Google the text passed like NSString and show you the result in Google Chrome app</td>
   		</tr>
 		<tr>
 			<td><a href="https://github.com/elabi3/ShareFramework/blob/master/ShareFramework/ShareClasses/ShareOpen.m">openPhoneNumberFromString</a></td>
-  			<td></td>
+  			<td>Open the Phone app with the number given like a NSString, not testing if is a valid number</td>
   		</tr>
 		<tr>
 			<td><a href="https://github.com/elabi3/ShareFramework/blob/master/ShareFramework/ShareClasses/ShareOpen.m">openMessage</a></td>
