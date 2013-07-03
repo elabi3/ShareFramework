@@ -16,11 +16,11 @@ ShareFramework helps you to share content with others apps in iOS
  - Copy in your project the following class
  https://github.com/elabi3/ShareFramework/tree/master/ShareFramework/ShareClasses
 
- - Method 1
+ - Method 1:
    You can access to these class from everywhere in your project.
    Add to your "Supporting Files/{name}-Prefix.pch": #import "ShareHeaders.h"
  
- - Method 1
+ - Method 2:
    Add #import "ShareHeaders.h" to the class that you need
 
 <h2>Overview</h2>
@@ -47,65 +47,65 @@ Class Name and description of each operation.
 			<th colspan="2">ShareFacebook</th>
 		</tr>
 		<tr>
-			<td><a href="https://github.com/elabi3/ShareFramework/blob/master/ShareFramework/ShareClasses/ShareFacebook.m"></a>postToFacebookText</td>
+			<td><a href="https://github.com/elabi3/ShareFramework/blob/master/ShareFramework/ShareClasses/ShareFacebook.m">postToFacebookText</a></td>
     			<td></td>
   		</tr>
 		<tr>
 			<th colspan="2">ShareOpen</th>
 		</tr>
 		<tr>
-			<td><a href="https://github.com/elabi3/ShareFramework/blob/master/ShareFramework/ShareClasses/ShareOpen.m"></a>openSafariURLFromString</td>
+			<td><a href="https://github.com/elabi3/ShareFramework/blob/master/ShareFramework/ShareClasses/ShareOpen.m">openSafariURLFromString</a></td>
   			<td></td>
   		</tr>
 		<tr>
-			<td><a href="https://github.com/elabi3/ShareFramework/blob/master/ShareFramework/ShareClasses/ShareOpen.m"></a>openChromeURLFromString</td>
+			<td><a href="https://github.com/elabi3/ShareFramework/blob/master/ShareFramework/ShareClasses/ShareOpen.m">openChromeURLFromString</a></td>
   			<td></td>
   		</tr>
 		<tr>
-			<td><a href="https://github.com/elabi3/ShareFramework/blob/master/ShareFramework/ShareClasses/ShareOpen.m"></a>openOperaMiniURLFromString</td>
+			<td><a href="https://github.com/elabi3/ShareFramework/blob/master/ShareFramework/ShareClasses/ShareOpen.m">openOperaMiniURLFromString</a></td>
   			<td></td>
   		</tr>
 		<tr>
-			<td><a href="https://github.com/elabi3/ShareFramework/blob/master/ShareFramework/ShareClasses/ShareOpen.m"></a>openSearchChromeFromString</td>
+			<td><a href="https://github.com/elabi3/ShareFramework/blob/master/ShareFramework/ShareClasses/ShareOpen.m">openSearchChromeFromString</a></td>
   			<td></td>
   		</tr>
 		<tr>
-			<td><a href="https://github.com/elabi3/ShareFramework/blob/master/ShareFramework/ShareClasses/ShareOpen.m"></a>openPhoneNumberFromString</td>
+			<td><a href="https://github.com/elabi3/ShareFramework/blob/master/ShareFramework/ShareClasses/ShareOpen.m">openPhoneNumberFromString</a></td>
   			<td></td>
   		</tr>
 		<tr>
-			<td><a href="https://github.com/elabi3/ShareFramework/blob/master/ShareFramework/ShareClasses/ShareOpen.m"></a>openMessage</td>
+			<td><a href="https://github.com/elabi3/ShareFramework/blob/master/ShareFramework/ShareClasses/ShareOpen.m">openMessage</a></td>
   			<td></td>
   		</tr>
 		<tr>
-			<td><a href="https://github.com/elabi3/ShareFramework/blob/master/ShareFramework/ShareClasses/ShareOpen.m"></a>existChrome</td>
+			<td><a href="https://github.com/elabi3/ShareFramework/blob/master/ShareFramework/ShareClasses/ShareOpen.m">existChrome</a></td>
   			<td></td>
   		</tr>
 		<tr>
 			<th colspan="2">ShareTwitter</th>
 		</tr>
 		<tr>
-			<td><a href="https://github.com/elabi3/ShareFramework/blob/master/ShareFramework/ShareClasses/ShareTwitter.m"></a>postToTwitterText</td>
+			<td><a href="https://github.com/elabi3/ShareFramework/blob/master/ShareFramework/ShareClasses/ShareTwitter.m">postToTwitterText</a></td>
   			<td></td>
   		</tr>
 		<tr>
-			<td><a href="https://github.com/elabi3/ShareFramework/blob/master/ShareFramework/ShareClasses/ShareTwitter.m"></a>postToTwitterBackgroundWithAccount</td>
+			<td><a href="https://github.com/elabi3/ShareFramework/blob/master/ShareFramework/ShareClasses/ShareTwitter.m">postToTwitterBackgroundWithAccount</a></td>
   			<td></td>
   		</tr>
 		<tr>
-			<td><a href="https://github.com/elabi3/ShareFramework/blob/master/ShareFramework/ShareClasses/ShareTwitter.m"></a>startObtainingAccounts</td>
+			<td><a href="https://github.com/elabi3/ShareFramework/blob/master/ShareFramework/ShareClasses/ShareTwitter.m">startObtainingAccounts</a></td>
   			<td></td>
   		</tr>
 		<tr>
-			<td><a href="https://github.com/elabi3/ShareFramework/blob/master/ShareFramework/ShareClasses/ShareTwitter.m"></a>openSettingsTwitter</td>
+			<td><a href="https://github.com/elabi3/ShareFramework/blob/master/ShareFramework/ShareClasses/ShareTwitter.m">openSettingsTwitter</a></td>
   			<td></td>
   		</tr>
 		<tr>
-			<td><a href="https://github.com/elabi3/ShareFramework/blob/master/ShareFramework/ShareClasses/ShareTwitter.m"></a>getAccounts</td>
+			<td><a href="https://github.com/elabi3/ShareFramework/blob/master/ShareFramework/ShareClasses/ShareTwitter.m">getAccounts</a></td>
   			<td></td>
   		</tr>
 		<tr>
-			<td><a href="https://github.com/elabi3/ShareFramework/blob/master/ShareFramework/ShareClasses/ShareTwitter.m"></a>getAccountFromUserName</td>
+			<td><a href="https://github.com/elabi3/ShareFramework/blob/master/ShareFramework/ShareClasses/ShareTwitter.m">getAccountFromUserName</a></td>
   			<td></td>
 		</tr>
 	</tbody>
