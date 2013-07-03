@@ -94,7 +94,7 @@ Class Name and description of each operation.
   		</tr>
 		<tr>
 			<td><a href="https://github.com/elabi3/ShareFramework/blob/master/ShareFramework/ShareClasses/ShareTwitter.m">startObtainingAccounts</a></td>
-  			<td>Obtain the twitter accounts configured in the System</td>
+  			<td>Obtain the twitter accounts configured in the System, is important do this action before "getAccounts" or "GetAccountFromUserName"</td>
   		</tr>
 		<tr>
 			<td><a href="https://github.com/elabi3/ShareFramework/blob/master/ShareFramework/ShareClasses/ShareTwitter.m">openSettingsTwitter</a></td>
