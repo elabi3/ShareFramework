@@ -1,18 +1,23 @@
 ShareFramework
 ==============
 
-Description
 ShareFramework helps you to share content with others apps in iOS
 
-Frameworks
+<h2>Frameworks</h2>
  - MessageUI.framework
  - Social.framework
  - Accounts.framework
 
 
-Add to your "Supporting Files/{name}-Prefix.pch" 
- - #import "ShareHeaders.h"
+<h2>Add to your project</h2>
 
+ - Copy this class "https://github.com/elabi3/ShareFramework/tree/master/ShareFramework/ShareClasses" in your project.
+ - Add to your "Supporting Files/{name}-Prefix.pch": #import "ShareHeaders.h"
+
+
+<h2>Overview</h2>
+
+Class Name and description of each operation.
 
 <table>
 	<tbody>
