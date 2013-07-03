@@ -11,5 +11,5 @@ Frameworks used
 
 
 Add to your Supporting Files/NombreApp-Prefix.pch 
-#import "ShareHeaders.h"
+ - #import "ShareHeaders.h"
 
