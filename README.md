@@ -17,11 +17,39 @@ Add to your "Supporting Files/{name}-Prefix.pch"
 <table>
 	<tbody>
 		<tr>
-			<th colspan="2">Core</th>
-
+			<th colspan="2">ShareClipBoard</th>
 		</tr>
 		<tr>
-			<td><a href="http://afnetworking.github.com/AFNetworking/Classes/AFURLConnectionOperation.html">AFURLConnectionOperation</a></td>
+			<td><a href="http://afnetworking.github.com/AFNetworking/Classes/AFURLConnectionOperation.html">-(void) copyStringToClipBoard:(NSString *) string;</a></td>
+    			<td>An <tt>NSOperation</tt> that implements the <tt>NSURLConnection</tt> delegate methods.</td>
+  		</tr>
+		<tr>
+			<th colspan="2">ShareEmail</th>
+		</tr>
+		<tr>
+			<td><a href="http://afnetworking.github.com/AFNetworking/Classes/AFURLConnectionOperation.html">-(void) emailText:(NSString *) stringText  asunto:(NSString *) asunto  destinatarios:(NSArray *) destinatarios urlString:(NSString *) stringURL viewController:(UIViewController *) viewController;
+</a></td>
+    			<td>An <tt>NSOperation</tt> that implements the <tt>NSURLConnection</tt> delegate methods.</td>
+  		</tr>
+		<tr>
+			<th colspan="2">ShareFacebook</th>
+		</tr>
+		<tr>
+			<td><a href="http://afnetworking.github.com/AFNetworking/Classes/AFURLConnectionOperation.html">-(void) copyStringToClipBoard:(NSString *) string;</a></td>
+    			<td>An <tt>NSOperation</tt> that implements the <tt>NSURLConnection</tt> delegate methods.</td>
+  		</tr>
+		<tr>
+			<th colspan="2">ShareOpen</th>
+		</tr>
+		<tr>
+			<td><a href="http://afnetworking.github.com/AFNetworking/Classes/AFURLConnectionOperation.html">-(void) copyStringToClipBoard:(NSString *) string;</a></td>
+    			<td>An <tt>NSOperation</tt> that implements the <tt>NSURLConnection</tt> delegate methods.</td>
+  		</tr>
+		<tr>
+			<th colspan="2">ShareTwitter</th>
+		</tr>
+		<tr>
+			<td><a href="http://afnetworking.github.com/AFNetworking/Classes/AFURLConnectionOperation.html">-(void) copyStringToClipBoard:(NSString *) string;</a></td>
     			<td>An <tt>NSOperation</tt> that implements the <tt>NSURLConnection</tt> delegate methods.</td>
   		</tr>
 	</tbody>
