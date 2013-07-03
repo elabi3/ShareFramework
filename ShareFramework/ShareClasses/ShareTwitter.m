@@ -10,31 +10,11 @@
 #import <Social/Social.h>
 #import <Accounts/Accounts.h>
 
-// Variable de la clase para el patron solitario
 static ShareTwitter *instance;
-// Array de cuentas 
 static NSArray *arrayOfAccounts;
 
-/**
- @Class ShareTwitter
- @Description clase encargada de establecer la comunicacion con el SocialFramework de Apple concretamente para gestionar el acceso a Twitter
- @Method getInstance
- @Method postToTwitterText
- @Method postToTwitterBackgroundWithAccount
- @Method startObtainingAccounts
- @Method openSettingsTwitter
- @Method getAccounts
- @Method getAccountFromUserName
- @Method createMessageWithText
- @Method sendTweetWithAccount
- **/
 @implementation ShareTwitter
 
-/**
- @Method getInstance
- @Description metodo encargardo de devolver la instancia actual de la clase
- @Return (ShareTwitter *)
- **/
 +(ShareTwitter *) getInstance {
     if (instance == nil) {
         instance = [[ShareTwitter alloc] init];
@@ -42,24 +22,10 @@ static NSArray *arrayOfAccounts;
     return instance;
 }
 
-/**
- @Method getAccounts
- @Description metodo nos da un array con todas las cuentas configuradas en el sistema
- @Return (NSArray *)
- **/
 -(NSArray *) getAccounts {
     return arrayOfAccounts;
 }
 
-/**
- @Method postToTwitterText
- @Description metodo que nos permite enviar un Tweet abriendo la ventana del sistema operativo existente para ese proposito
- @Param (NSString *) stringText - texto del tweet
- @Param (UIImage*) foto - foto del tweet
- @Param (NSString *) stringURL - url que ira en el tweet
- @Param (UIViewController *) viewController - view controller que se encargara de lanzar a la ventana 
- @Return void
- **/
 -(void) postToTwitterText:(NSString *) stringText  foto:(UIImage*) foto  urlString:(NSString *) stringURL  viewController:(UIViewController *) viewController {
     // Creamos la ventana de envio del tweet
     SLComposeViewController *composeController = [SLComposeViewController
@@ -82,17 +48,6 @@ static NSArray *arrayOfAccounts;
     [viewController presentViewController:composeController animated:YES completion:nil];
 }
 
-/**
- @Method postToTwitterBackgroundWithAccount
- @Description metodo encargado de enviar un tweet sin que aparezca ninguna venta de confirmacion ni nada por el estilo, de forma totalmente transparente al usuario
- @Param (ACAccount *) account - cuenta desde la que enviaremos el tweet
- @Param (NSString *) stringText - texto del tweet
- @Param (UIImage*) foto - foto del tweet
- @Param (NSString *)video - video del tweet
- @Param (NSString *)latitud
- @Param (NSString *)longitud
- @Param (NSString *) stringURL - url que ira en el tweet
- **/
 -(void) postToTwitterBackgroundWithAccount:(ACAccount *) account text:(NSString *)stringText foto:(UIImage *)foto video:(NSString *)video latitud:(NSString *)latitud longitud:(NSString *) longitud urlString:(NSString *)stringURL {
     ACAccountStore *accountStore = [[ACAccountStore alloc] init];
     ACAccountType *accountType = [accountStore accountTypeWithAccountTypeIdentifier:ACAccountTypeIdentifierTwitter];
@@ -132,16 +87,6 @@ static NSArray *arrayOfAccounts;
                                   completion:resultblock];
 }
 
-/**
- @Method createMessageWithText
- @Description este metodo crear el jSON que se enviará a twitter a partir de unos parametros indicados
- @Param (NSString *) stringText
- @Param (NSString *) stringText - texto del tweet
- @Param (NSString *)latitud
- @Param (NSString *)longitud
- @Param (NSString *) stringURL - url que ira en el tweet
- @Return (NSDictionary *)
- **/
 -(NSDictionary *) createMessageWithText:(NSString *) stringText latitud:(NSString *)latitud longitud:(NSString *)longitud urlString:(NSString *)stringURL {
     NSMutableDictionary * dictionary = [[NSMutableDictionary alloc] init];
     
@@ -163,14 +108,7 @@ static NSArray *arrayOfAccounts;
     return [[NSDictionary alloc] initWithDictionary:dictionary];
 }
 
-/**
- @Method sendTweetWithAccount
- @Description metodo que se encarga del envio del mensaje a twitter 
- @Param (ACAccount *) account
- @Param (NSDictionary *) message 
- @Param (UIImage *) foto
- @Return void
- **/
+
 -(void) sendTweetWithAccount:(ACAccount *) account  message:(NSDictionary *) message  foto:(UIImage *) foto {
     // Establecemos la url a la que se enviara el mensaje
     NSURL *requestURL = [NSURL URLWithString:@"http://api.twitter.com/1/statuses/update.json"];
@@ -204,11 +142,6 @@ static NSArray *arrayOfAccounts;
     }];
 }
 
-/**
- @Method startObtainingAccounts
- @Description metodo encargado de cargar las cuentas que haya en el sistema 
- @Return void
- **/
 -(void) startObtainingAccounts {
     ACAccountStore *account = [[ACAccountStore alloc] init];
     ACAccountType *accountType = [account accountTypeWithAccountTypeIdentifier:ACAccountTypeIdentifierTwitter];
@@ -228,12 +161,6 @@ static NSArray *arrayOfAccounts;
                                   completion:resultblock];
 }
 
-/**
- @Method getAccountFromUserName
- @Description nos deuelve una cuenta para un nombre de usuario determinado
- @Param (NSString *) userName 
- @Return (ACAccount *)
- **/
 -(ACAccount *) getAccountFromUserName: (NSString *) userName {
     for (ACAccount * account in arrayOfAccounts) {
         if ([account.username isEqualToString:userName]) {
@@ -243,12 +170,6 @@ static NSArray *arrayOfAccounts;
     return nil;
 }
 
-/**
- @Method openSettingsTwitter
- @Description permite abrir las opciones de configuracion del sistema de twitter
- @Param (UIViewController *) viewController 
- @Return void
- **/
 -(void) openSettingsTwitter:(UIViewController *) viewController {
     // Iniciamos la ventana de envio de un tweet del sistema
     SLComposeViewController *composeController = [SLComposeViewController
