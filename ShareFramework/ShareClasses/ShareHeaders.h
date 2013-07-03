@@ -1,9 +1,5 @@
 //
-//  ShareHeaders.h
-//  webTablon
-//
-//  Created by Abimael Barea Puyana on 26/11/12.
-//  Copyright (c) 2012 Abimael Barea Puyana. All rights reserved.
+//  Created by elabi3.
 //
 
 #import "ShareTwitter.h"
