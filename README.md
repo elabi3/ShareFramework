@@ -13,7 +13,7 @@ ShareFramework helps you to share content with others apps in iOS
 
 <h2>Add to your project</h2>
 
- - Copy in your project the following class
+ - Copy in your project the following classes
  https://github.com/elabi3/ShareFramework/tree/master/ShareFramework/ShareClasses
 
  - Method 1:
@@ -75,38 +75,38 @@ Class Name and description of each operation.
   		</tr>
 		<tr>
 			<td><a href="https://github.com/elabi3/ShareFramework/blob/master/ShareFramework/ShareClasses/ShareOpen.m">openMessage</a></td>
-  			<td></td>
+  			<td>Open the Message app</td>
   		</tr>
 		<tr>
 			<td><a href="https://github.com/elabi3/ShareFramework/blob/master/ShareFramework/ShareClasses/ShareOpen.m">existChrome</a></td>
-  			<td></td>
+  			<td>Check if the Google Chrome app is installed in the device</td>
   		</tr>
 		<tr>
 			<th colspan="2">ShareTwitter</th>
 		</tr>
 		<tr>
 			<td><a href="https://github.com/elabi3/ShareFramework/blob/master/ShareFramework/ShareClasses/ShareTwitter.m">postToTwitterText</a></td>
-  			<td></td>
+  			<td>Open the twitter system window</td>
   		</tr>
 		<tr>
 			<td><a href="https://github.com/elabi3/ShareFramework/blob/master/ShareFramework/ShareClasses/ShareTwitter.m">postToTwitterBackgroundWithAccount</a></td>
-  			<td></td>
+  			<td>Post a tweet in background (without show the system twitter window)</td>
   		</tr>
 		<tr>
 			<td><a href="https://github.com/elabi3/ShareFramework/blob/master/ShareFramework/ShareClasses/ShareTwitter.m">startObtainingAccounts</a></td>
-  			<td></td>
+  			<td>Obtain the twitter accounts configured in the System</td>
   		</tr>
 		<tr>
 			<td><a href="https://github.com/elabi3/ShareFramework/blob/master/ShareFramework/ShareClasses/ShareTwitter.m">openSettingsTwitter</a></td>
-  			<td></td>
+  			<td>Open a system windows that let you go to the Twitter Settings, you must pass your current ViewController for present the window</td>
   		</tr>
 		<tr>
 			<td><a href="https://github.com/elabi3/ShareFramework/blob/master/ShareFramework/ShareClasses/ShareTwitter.m">getAccounts</a></td>
-  			<td></td>
+  			<td>Get all twitter accounts configured in the current device</td>
   		</tr>
 		<tr>
 			<td><a href="https://github.com/elabi3/ShareFramework/blob/master/ShareFramework/ShareClasses/ShareTwitter.m">getAccountFromUserName</a></td>
-  			<td></td>
+  			<td>Get a twitter account, in the device, which name is equal to the NSString passed like argument </td>
 		</tr>
 	</tbody>
 </table>
