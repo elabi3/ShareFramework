@@ -18,6 +18,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    //Examples
+    [[ShareOpen getInstance] openChromeURLFromString:@"www.google.com"];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning

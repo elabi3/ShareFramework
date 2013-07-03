@@ -23,6 +23,14 @@
 		5FE01937178420DE002C59B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FE01912178420DE002C59B2 /* Foundation.framework */; };
 		5FE0193F178420DE002C59B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5FE0193D178420DE002C59B2 /* InfoPlist.strings */; };
 		5FE01942178420DE002C59B2 /* ShareFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE01941178420DE002C59B2 /* ShareFrameworkTests.m */; };
+		5FE019571784210E002C59B2 /* ShareClipBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE0194D1784210E002C59B2 /* ShareClipBoard.m */; };
+		5FE019581784210E002C59B2 /* ShareEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE0194F1784210E002C59B2 /* ShareEmail.m */; };
+		5FE019591784210E002C59B2 /* ShareFacebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE019511784210E002C59B2 /* ShareFacebook.m */; };
+		5FE0195A1784210E002C59B2 /* ShareOpen.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE019541784210E002C59B2 /* ShareOpen.m */; };
+		5FE0195B1784210E002C59B2 /* ShareTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE019561784210E002C59B2 /* ShareTwitter.m */; };
+		5FE0195D17842136002C59B2 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FE0195C17842136002C59B2 /* MessageUI.framework */; };
+		5FE0195F17842155002C59B2 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FE0195E17842155002C59B2 /* Social.framework */; };
+		5FE019611784217E002C59B2 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FE019601784217E002C59B2 /* Accounts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +66,20 @@
 		5FE0193E178420DE002C59B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5FE01940178420DE002C59B2 /* ShareFrameworkTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareFrameworkTests.h; sourceTree = "<group>"; };
 		5FE01941178420DE002C59B2 /* ShareFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareFrameworkTests.m; sourceTree = "<group>"; };
+		5FE0194C1784210E002C59B2 /* ShareClipBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareClipBoard.h; sourceTree = "<group>"; };
+		5FE0194D1784210E002C59B2 /* ShareClipBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareClipBoard.m; sourceTree = "<group>"; };
+		5FE0194E1784210E002C59B2 /* ShareEmail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareEmail.h; sourceTree = "<group>"; };
+		5FE0194F1784210E002C59B2 /* ShareEmail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareEmail.m; sourceTree = "<group>"; };
+		5FE019501784210E002C59B2 /* ShareFacebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareFacebook.h; sourceTree = "<group>"; };
+		5FE019511784210E002C59B2 /* ShareFacebook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareFacebook.m; sourceTree = "<group>"; };
+		5FE019521784210E002C59B2 /* ShareHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareHeaders.h; sourceTree = "<group>"; };
+		5FE019531784210E002C59B2 /* ShareOpen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareOpen.h; sourceTree = "<group>"; };
+		5FE019541784210E002C59B2 /* ShareOpen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareOpen.m; sourceTree = "<group>"; };
+		5FE019551784210E002C59B2 /* ShareTwitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareTwitter.h; sourceTree = "<group>"; };
+		5FE019561784210E002C59B2 /* ShareTwitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareTwitter.m; sourceTree = "<group>"; };
+		5FE0195C17842136002C59B2 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		5FE0195E17842155002C59B2 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		5FE019601784217E002C59B2 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +87,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FE019611784217E002C59B2 /* Accounts.framework in Frameworks */,
+				5FE0195F17842155002C59B2 /* Social.framework in Frameworks */,
+				5FE0195D17842136002C59B2 /* MessageUI.framework in Frameworks */,
 				5FE01911178420DE002C59B2 /* UIKit.framework in Frameworks */,
 				5FE01913178420DE002C59B2 /* Foundation.framework in Frameworks */,
 				5FE01915178420DE002C59B2 /* CoreGraphics.framework in Frameworks */,
@@ -106,6 +131,9 @@
 		5FE0190F178420DE002C59B2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5FE019601784217E002C59B2 /* Accounts.framework */,
+				5FE0195E17842155002C59B2 /* Social.framework */,
+				5FE0195C17842136002C59B2 /* MessageUI.framework */,
 				5FE01910178420DE002C59B2 /* UIKit.framework */,
 				5FE01912178420DE002C59B2 /* Foundation.framework */,
 				5FE01914178420DE002C59B2 /* CoreGraphics.framework */,
@@ -117,6 +145,7 @@
 		5FE01916178420DE002C59B2 /* ShareFramework */ = {
 			isa = PBXGroup;
 			children = (
+				5FE0194B1784210E002C59B2 /* ShareClasses */,
 				5FE0191F178420DE002C59B2 /* AppDelegate.h */,
 				5FE01920178420DE002C59B2 /* AppDelegate.m */,
 				5FE01928178420DE002C59B2 /* ViewController.h */,
@@ -158,6 +187,24 @@
 				5FE0193D178420DE002C59B2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5FE0194B1784210E002C59B2 /* ShareClasses */ = {
+			isa = PBXGroup;
+			children = (
+				5FE0194C1784210E002C59B2 /* ShareClipBoard.h */,
+				5FE0194D1784210E002C59B2 /* ShareClipBoard.m */,
+				5FE0194E1784210E002C59B2 /* ShareEmail.h */,
+				5FE0194F1784210E002C59B2 /* ShareEmail.m */,
+				5FE019501784210E002C59B2 /* ShareFacebook.h */,
+				5FE019511784210E002C59B2 /* ShareFacebook.m */,
+				5FE019521784210E002C59B2 /* ShareHeaders.h */,
+				5FE019531784210E002C59B2 /* ShareOpen.h */,
+				5FE019541784210E002C59B2 /* ShareOpen.m */,
+				5FE019551784210E002C59B2 /* ShareTwitter.h */,
+				5FE019561784210E002C59B2 /* ShareTwitter.m */,
+			);
+			path = ShareClasses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +320,11 @@
 				5FE0191D178420DE002C59B2 /* main.m in Sources */,
 				5FE01921178420DE002C59B2 /* AppDelegate.m in Sources */,
 				5FE0192A178420DE002C59B2 /* ViewController.m in Sources */,
+				5FE019571784210E002C59B2 /* ShareClipBoard.m in Sources */,
+				5FE019581784210E002C59B2 /* ShareEmail.m in Sources */,
+				5FE019591784210E002C59B2 /* ShareFacebook.m in Sources */,
+				5FE0195A1784210E002C59B2 /* ShareOpen.m in Sources */,
+				5FE0195B1784210E002C59B2 /* ShareTwitter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
