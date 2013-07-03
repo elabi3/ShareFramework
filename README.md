@@ -13,14 +13,15 @@ ShareFramework helps you to share content with others apps in iOS
 
 <h2>Add to your project</h2>
 
- - Copy these class "https://github.com/elabi3/ShareFramework/tree/master/ShareFramework/ShareClasses" in your project.
+ - Copy in your project the following class
+ https://github.com/elabi3/ShareFramework/tree/master/ShareFramework/ShareClasses
 
- Method 1
+ - Method 1
    You can access to these class from everywhere in your project.
- - Add to your "Supporting Files/{name}-Prefix.pch": #import "ShareHeaders.h"
+   Add to your "Supporting Files/{name}-Prefix.pch": #import "ShareHeaders.h"
  
- Method 1
- - Add #import "ShareHeaders.h" to the class that you need
+ - Method 1
+   Add #import "ShareHeaders.h" to the class that you need
 
 <h2>Overview</h2>
 
